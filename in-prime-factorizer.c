@@ -36,8 +36,8 @@ int main ()
     printf("--------------------------------------\n");
     printf("Inserisci un valore intero positivo.\n");
     printf(" \n");
-    printf("Il numero scelto sarà scomposto in un'unica\n");
-    printf("combinazione lineare di numeri primi.\n");
+    printf("Il numero scelto sarà scomposto in un unico\n");
+    printf("prodotto fra numeri primi.\n");
     printf("--------------------------------------\n");
     scanf("%d", &valore);
     printf("...\n");
