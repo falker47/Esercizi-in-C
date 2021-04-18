@@ -99,7 +99,11 @@ int main()
     }
 
     float media = somma / N; //calcola la media
+    float max = dati[N-1];
+    float min = dati[0];
     printf("--------------------------------------------\n"); // ***
+    printf("Il valore minimo è: %f\n", min);
+    printf("Il valore massimo è: %f\n", max);
     printf("La somma dei valori è: %f\n", somma);
     printf("La media dei valori è: %f\n", media);
     printf("\n");
